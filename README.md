@@ -3,4 +3,4 @@ beego
 
 beego in docker
 
-`beego version 1.4`
+`beego version 1.4.2`
