@@ -1,15 +1,15 @@
 FROM cloudcube/golang
 
-MAINTAINER net.cloudcube "cloudcube@outlook.com"
+MAINTAINER HipinZhao "cloudcube@outlook.com"
 
-ENV REFRESHED_AT 2014-10-16 23:35
+ENV REFRESHED_AT 2015-1-7 21:37
 
 # system update
 RUN apt-get update
 
 # install beego
-RUN go get github.com/astaxie/beego
+RUN go get -u github.com/astaxie/beego
 
 # install bee
-RUN go get github.com/cloudcube/bee
+RUN go get -u github.com/cloudcube/bee
 
