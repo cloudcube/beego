@@ -2,7 +2,7 @@ FROM cloudcube/golang
 
 MAINTAINER HipinZhao "cloudcube@outlook.com"
 
-ENV REFRESHED_AT 2015-1-7 21:37
+ENV REFRESHED_AT 2015-5-3 21:09
 
 # system update
 RUN apt-get update
